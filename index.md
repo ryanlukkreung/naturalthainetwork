@@ -5,7 +5,7 @@ date: 2021-04-25 11:00:00 +0000
 page_sections:
 - template: navigation-header-w-button
   block: header-2
-  logo: "/uploads/2018/06/21/forestry-full.svg"
+  logo: "/uploads/2021/04/25/natural-thai-logo3-1.png"
   navigation:
   - link: "/"
     link_text: Home
@@ -24,12 +24,32 @@ page_sections:
     Thai adventures.
   cta:
     enabled: false
-    url: https://github.com/forestryio/ubuild-jekyll
+    url: ''
     button_text: 'See on GitHub '
   image:
-    image: "/uploads/2018/06/21/product-shot-1.png"
+    image: "/uploads/2021/04/25/florian-wehde-y3sidwvdxg-unsplash.jpg"
     alt_text: Product Shot
-  background_image: "/uploads/2021/04/25/florian-wehde-y3sidwvdxg-unsplash.jpg"
+  background_image: ''
+- template: full-width-media-element
+  block: media-1
+  slug: Natural Thai Learning
+  image: "/uploads/2021/04/25/natural-thai-logo3-1.png"
+  caption: ''
+- template: detail-content
+  block: text-1
+  headline: Why Learn Thai Naturally?
+  content: "<p>Over the centuries, many students have tried to learn Thai by writing
+    out thousands of flashcards, drilling tones (while moving their heads or hands),
+    and repeating mysterious sentences after their teachers and friends.<br><br>But
+    we're here to tell you, there's a better way. You can learn Thai naturally!</p><p>Through
+    extensive exposure to fun and engaging lessons, students can naturally pick up
+    the Thai language and even learn about Thai culture.</p><p>How does it work? Our
+    expert Thai teaching partners use level-appropriate Thai to tell fun stories,
+    to demonstrate real life Thai experiences, and to invite students into discussions
+    and scenarios.</p><p>Through these experiences, you will find that your mind naturally
+    understands through context and begins to put the pieces of the language together.
+    This is without drills, without flashcards, and without grammar lectures.</p><p>Are
+    you ready to give it a try?</p>"
 - template: content-feature
   block: feature-1
   media_alignment: Left
@@ -58,13 +78,12 @@ page_sections:
   headline: Natural Thai Your Way
   content: Whatever your natural Thai learning needs, the Natural Thai Network is
     ready to help.
-- template: detail-content
-  block: text-1
-  content: "<p>Want to start your Natural Thai adventure?</p><ol><li><p>Look at our
-    offerings.</p></li><li><p>Preview a class.</p></li><li><p>Make a booking request.</p></li></ol>"
-  headline: How to Get Started
+- template: signup-bar
+  block: cta-bar
+  content: Stay tuned for our regular newsletter.
+  email_recipient: newsletter@naturalthai.network
 - template: simple-footer
   block: footer-1
-  content: Made with ❤︎ in Thailand
+  content: Learn Thai Around the World, Naturally
 
 ---
