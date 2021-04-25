@@ -44,3 +44,5 @@ fields:
     - Right
   label: Media Alignment
   default: Right
+pages:
+- _posts/NTN-Begins-2021-04-25.md
