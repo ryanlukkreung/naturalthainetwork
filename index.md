@@ -1,86 +1,70 @@
 ---
 layout: blocks
 title: Homepage
-date: 2017-11-22T23:00:00.000+00:00
+date: 2021-04-25 11:00:00 +0000
 page_sections:
-  - template: navigation-header-w-button
-    block: header-2
-    logo: "/uploads/2018/06/21/forestry-full.svg"
-    navigation:
-      - link: "/"
-        link_text: Ubuild
-      - link: "#swap"
-        link_text: Swap
-      - link: "#customize"
-        link_text: Customize
-      - link: "#responsive"
-        link_text: Responsive
-      - link: "#blocks"
-        link_text: Blocks
-    cta:
-      url: https://app.forestry.io/quick-start?repo=forestryio/ubuild-jekyll&provider=github&engine=jekyll
-      button_text: Import
-  - template: hero-banner-w-image
-    block: hero-2
-    slug: features
-    headline: uBuild <br><strong>design blocks</strong>
-    content:
-      The tool that allows you to build beautiful sites<br>all inside Forestry's
-      content manager.
-    cta:
-      enabled: true
-      url: https://github.com/forestryio/ubuild-jekyll
-      button_text: "See on GitHub "
-    image:
-      image: "/uploads/2018/06/21/product-shot-1.png"
-      alt_text: Product Shot
-    background_image: "/uploads/2018/06/21/hero-2-bg.png"
-  - template: content-feature
-    block: feature-1
-    media_alignment: Left
-    slug: swap
-    headline:
-      <strong>Swap &amp; Switch<span class="light">&nbsp;</span></strong><span
-      class="light">the Blocks to create sites quickly</span>
-    content:
-      Quickly assemble and create custom sites with 16 design blocks for seven
-      different sections.
-    media:
-      image: "/uploads/2018/06/21/blocks-split.png"
-      alt_text: uBuild Blocks Mock-Up
-  - template: content-feature
-    block: feature-1
-    media_alignment: Right
-    slug: customize
-    headline:
-      <strong>Customize Blocks</strong><span class="light">&nbsp;to make quick
-      edits throughout your new site</span>
-    content:
-      Each block comes with custom Front Matter that can be edited in
-      Forestry CMS.
-    media:
-      image: "/uploads/2018/06/21/edit.gif"
-      alt_text: Customize Blocks
-  - template: 1-column-text
-    block: one-column-1
-    slug: responsive
-    headline: 16 Fully Responsive Design Blocks
-    content: |
-      The Design Blocks can be used without Forestry but to harness the power
-      of Blocks we recommend using <a href="https://forestry.io">Forestry</a>. Once the site is imported you can immediately
-      create new sites and make them fully customizable.
-  - template: full-width-media-element
-    block: media-1
-    image: "/uploads/2018/06/21/theme.png"
-    caption: All Available Blocks
-    slug: blocks
-  - template: detail-content
-    block: text-1
-    headline: Steps to Build a Site!
-    content:
-      <p>uBuild is an open-source Jekyll based demo that doubles as a builder tool inside the Forestry content manager.</p><ol><li><p><a href="https://app.forestry.io/quick-start?repo=forestryio/ubuild-jekyll&provider=github&engine=jekyll">Import this demo in Forestry</a>.</p></li><li><p>Read <a href="https://forestry.io/blog/ubuild-a-new-theme-for-static-sites-using-blocks/">our
-      article</a> and create your own Blocks.</p></li><li><p>Add and customize the available Blocks and preview them as you go along.</p></li></ol>
-  - template: simple-footer
-    block: footer-1
-    content: Made with ❤︎ in Canada
+- template: navigation-header-w-button
+  block: header-2
+  logo: "/uploads/2018/06/21/forestry-full.svg"
+  navigation:
+  - link: "/"
+    link_text: Home
+  - link: "#group"
+    link_text: Group Classes
+  - link: "#bespoke"
+    link_text: Bespoke Lessons
+  cta:
+    url: "/"
+    button_text: Return Home
+- template: hero-banner-w-image
+  block: hero-2
+  slug: features
+  headline: Natural Thai Network <br><strong>Learn Thai Naturally</strong>
+  content: We help connect you to the classes and teachers you need for your Natural
+    Thai adventures.
+  cta:
+    enabled: false
+    url: https://github.com/forestryio/ubuild-jekyll
+    button_text: 'See on GitHub '
+  image:
+    image: "/uploads/2018/06/21/product-shot-1.png"
+    alt_text: Product Shot
+  background_image: "/uploads/2021/04/25/florian-wehde-y3sidwvdxg-unsplash.jpg"
+- template: content-feature
+  block: feature-1
+  media_alignment: Left
+  slug: group
+  headline: "<strong>Group Classes</strong>"
+  content: Group classes will get you started in your <em>Natural Thai</em> learning
+    journey, and many students love the wealth of topics available in our partners'
+    <em>AUR Thai Online</em> group lessons.
+  media:
+    image: "/uploads/2021/04/25/176183933_10158806624550225_5218606161198130352_n.jpg"
+    alt_text: uBuild Blocks Mock-Up
+- template: content-feature
+  block: feature-1
+  media_alignment: Right
+  slug: bespoke
+  headline: "<strong>Bespoke Lessons</strong>"
+  content: Need more special attention? Want to study with your friends and family?<br><br>We
+    can also help you to connect with teachers to meet your small group and private
+    1-on-1 tutoring needs.
+  media:
+    image: "/uploads/2021/04/25/175868568_10161020540734056_2116296840199394740_n.jpg"
+    alt_text: Small Group & 1-on-1 Lessons
+- template: 1-column-text
+  block: one-column-1
+  slug: ''
+  headline: Natural Thai Your Way
+  content: Whatever your natural Thai learning needs, the Natural Thai Network is
+    ready to help.
+- template: detail-content
+  block: text-1
+  content: "<p>Want to start your Natural Thai adventure?</p><ol><li><p>Look at our
+    offerings.</p></li><li><p>Preview a class.</p></li><li><p>Make a booking request.</p></li></ol>"
+  headline: How to Get Started
+- template: simple-footer
+  block: footer-1
+  content: Made with ❤︎ in Thailand
+
 ---
